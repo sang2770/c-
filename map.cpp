@@ -9,14 +9,16 @@ int main()
   int a[n];
   for(int i=0;i<n;i++)
   cin>>a[i];
-  for(auto b:a)
-   m[b]++;
+  for(int i=0;i<n;i++)
+   m[a[i]]++;
    /*int a[4]={1, 1, 3,2};
    for(auto i:a)
     m[i]++;*/
   
-  for(auto M: m ) 
-  cout<<M.first<<" "<<M.second<<endl;
+//  for(auto M: m ) 
+//  cout<<M.first<<" "<<M.second<<endl;
+//for(int i=0;i<n;i++)
+//cout<<m[i].first<<" "<<m[i].second<<endl;
   
    
   }

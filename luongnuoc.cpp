@@ -6,7 +6,7 @@ int main()
 	int n;
 	int a[10000], L[10005], R[10005];
 	cin>>n;
-	for(int i=0;i<=n;i++)
+	for(int i=0;i<=zn;i++)
 	cin>>a[i];
 	L[1]=a[1];
 	for(int i=2;i<=n;i++)
