@@ -24,6 +24,7 @@ int main()
    	sort(save.begin(), save.end());
    	for(int i=0;i<save.size();i++)
    	 cout<<save[i]<<endl;
+   	cout<<save.size();
    	 }
 
 
